@@ -16,9 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //UIView是视图类，所有的控件都直接或间接地继承它
-    
+
     //创建UIView
     UIView *view1 = [[UIView alloc] init];
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(20, 120, 100, 100)];

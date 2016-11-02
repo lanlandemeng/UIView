@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     //创建UIView
     UIView *view1 = [[UIView alloc] init];
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(20, 120, 100, 100)];
